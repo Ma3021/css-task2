@@ -1,0 +1,57 @@
+#box3,#box4,#box7,#box10,#box13,#box18,#box23,#box28,#box33,#box36{display: flex;}
+
+
+.box1,.box2,.box6,.box5,.box8,.box9,.box11,.box12{
+    background-color:azure;
+    text-align: center;
+    width: 40%;
+    padding: 60px;
+    margin: 20px;
+    border-radius: 5px;
+    
+}
+.box14,.box15,.box16,.box17,.box19,.box20,.box21,.box22,.box24,.box25,.box26,.box27,.box29,.box30,.box31,.box32{
+    background-color: azure;
+    text-align: center;
+    width: 25%;
+    padding: 10px;
+    margin: 30px; 
+    border-radius: 5px;
+}
+.box34,.box35,.box37,.box38{
+    background-color: azure;
+    text-align: center;
+    width: 45%;
+    padding: 10px;
+    margin: 30px; 
+    border-radius: 5px;
+
+}
+
+body{
+    background-color: black;
+    box-sizing: content-box;
+}
+button{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+.box2,.box12,.box19,.box31,.box25,.box35{
+    background-color: rgb(230, 230, 125);
+}
+.box1,.box11,.box17,.box24,.box30,.box37{
+    background-color: pink;
+}
+.box5,.box14,.box20,.box26,.box32,.box38{
+    background-color: aliceblue;
+}
+.box6,.box15,.box21,.box27{
+    background-color: rgb(168, 204, 211);
+}
+.box8,.box16,.box22,.box29,.box34{
+    background-color: rgb(135, 232, 236);
+}
